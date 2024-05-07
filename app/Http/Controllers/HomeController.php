@@ -9,4 +9,9 @@ class HomeController extends Controller
     public function index() {
         // new function introduce
     }
+
+    public function dashboard() {
+        // function from origin
+    }
+}
 }
