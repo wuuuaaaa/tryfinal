@@ -13,5 +13,8 @@ class HomeController extends Controller
     public function dashboard() {
         // function from origin
     }
-}
+    
+    public function report() {
+        // function from clone
+    }
 }
