@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('home', 'HomeController@index');
+
+Route::get('app', 'AppController@index');
+Route::post('app', 'AppController@app');
