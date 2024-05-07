@@ -14,4 +14,3 @@ class HomeController extends Controller
         // function from origin
     }
 }
-}
