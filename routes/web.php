@@ -19,5 +19,6 @@ Route::get('/', function () {
 
 Route::get('home', 'HomeController@index');
 
+# from tryclone2 repo
 Route::get('app', 'AppController@index');
 Route::post('app', 'AppController@app');
