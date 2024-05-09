@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('home', 'HomeController@index');
+
+#from tryclone repo
+Route::get('reports', 'ReportsController@index');
+Route::post('reports/stat', 'ReportsController@reportStatistic');
